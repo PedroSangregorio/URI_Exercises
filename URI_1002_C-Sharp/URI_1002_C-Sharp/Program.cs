@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Globalization;
 
-namespace uri
+namespace URI_1002
 {
     class Program
     {
         static void Main(String[] args)
         {
-            double A, R, π = 3.14159;
+            double a, r, π = 3.14159;
 
-            R = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            A = π * R * R;
-            Console.WriteLine("A=" + A.ToString("F4"), CultureInfo.InvariantCulture);
+            r = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            a = π * r * r;
+            Console.WriteLine("A=" + a.ToString("F4"), CultureInfo.InvariantCulture);
         }
     }
 }
