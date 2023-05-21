@@ -1,18 +1,19 @@
-﻿
+﻿using System;
+
 namespace URI_1001
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            int A, B, X;
+            int a, b, x;
 
-            A = int.Parse(Console.ReadLine());
-            B = int.Parse(Console.ReadLine());
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
 
-            X = A + B;
+            x = a + b;
 
-            Console.WriteLine("X = " + X);
+            Console.WriteLine("X = " + x);
         }
     }
 }
