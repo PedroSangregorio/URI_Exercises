@@ -1,21 +1,20 @@
 ﻿using System;
 
-namespace uri
+namespace URI_1003
 {
     class Program
     {
         static void Main(String[] args)
         {
 
-            int A, B;
+            int a, b;
 
-            A = int.Parse(Console.ReadLine());
-            B = int.Parse(Console.ReadLine());
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
 
-            int SOMA = A + B;
+            int sum = a + b;
 
-            Console.WriteLine("SOMA = " + SOMA);
-
+            Console.WriteLine("SOMA = " + sum);
         }
     }
 }
