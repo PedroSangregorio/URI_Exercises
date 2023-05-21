@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace uri1004
+namespace URI_1004
 {
     class Program
     {
@@ -10,7 +10,9 @@ namespace uri1004
 
             x = int.Parse(Console.ReadLine());
             y = int.Parse(Console.ReadLine());
+
             prod = x * y;
+
             Console.WriteLine("PROD = " + prod);
         }
     }
