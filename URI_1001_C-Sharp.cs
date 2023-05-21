@@ -1,4 +1,6 @@
-﻿using System;
+using System;
+
+//Developed by: @PedroSangregorio
 
 namespace URI_1001
 {
