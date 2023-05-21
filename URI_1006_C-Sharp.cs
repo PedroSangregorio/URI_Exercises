@@ -1,6 +1,8 @@
 using System;
 using System.Globalization;
 
+//Developed by: @PedroSangregorio
+
 namespace URI_1006
 {
     class Program
