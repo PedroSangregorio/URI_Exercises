@@ -9,10 +9,10 @@ namespace URI_1042
         static void Main(string[] args)
         {
             int n1, n2, n3, first, second, third;
-            String[] value = Console.ReadLine().Split(' ');
-            n1 = int.Parse(value[0]);
-            n2 = int.Parse(value[1]);
-            n3 = int.Parse(value[2]);
+            String[] vValue = Console.ReadLine().Split(' ');
+            n1 = int.Parse(vValue[0]);
+            n2 = int.Parse(vValue[1]);
+            n3 = int.Parse(vValue[2]);
 
             if (n1 < n2 && n1 < n3)
             {
